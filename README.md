@@ -70,7 +70,7 @@ This project uses GitHub Actions to:
 
 - Build the project with Maven
 - Build the Docker image
-- Push the Docker image to Docker Hub (`nickdev98/java-hello-world`)
+- Push the Docker image to Docker Hub (`nickdev98/spring-hello-world`)
 
 Workflow file is located at `.github/workflows/ci.yml`.
 
@@ -80,19 +80,7 @@ Workflow file is located at `.github/workflows/ci.yml`.
 
 Docker image is available on Docker Hub:
 
-[https://hub.docker.com/r/nickdev98/java-hello-world](https://hub.docker.com/r/nickdev98/java-hello-world)
+[https://hub.docker.com/r/nickdev98/spring-hello-world](https://hub.docker.com/r/nickdev98/spring-hello-world)
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-Created by [Your Name] - feel free to connect!
-
-- GitHub: [https://github.com/nickdev98](https://github.com/nickdev98)
-- Email: your.email@example.com
