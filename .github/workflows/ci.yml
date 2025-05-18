@@ -21,9 +21,11 @@ jobs:
         distribution: 'temurin'
 
     - name: Build with Maven
+      working-directory: Java_project/demo/demo
       run: mvn clean package
 
     - name: Build Docker Image
+      working-directory: Java_project/demo/demo
       run: docker build -t nickdev98/spring-hello-world .
 
     - name: Login to Docker Hub
