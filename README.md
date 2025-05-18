@@ -8,12 +8,16 @@ This is a simple Java Spring Boot web application that returns a "Hello World" m
 
 ```
 .
-├── .github/workflows/ci.yml    # GitHub Actions workflow file for CI/CD
-├── Java_project/demo/demo      # Spring Boot application source code
-│   ├── Dockerfile              # Dockerfile to build the app image
-│   ├── pom.xml                 # Maven build file
-│   └── src                    # Source code and resources
-└── README.md                   # This file
+├── .github
+│   └── workflows
+│       └── ci.yml      # GitHub Actions workflow file for CI/CD
+├── Java_project        # Spring Boot application source code
+│   └── demo
+│       └── demo
+│           ├── Dockerfile  # Dockerfile to build the app image
+│           ├── pom.xml
+│           └── src    
+
 ```
 
 ---
